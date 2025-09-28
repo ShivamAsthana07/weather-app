@@ -25,7 +25,7 @@ function Inputs({setQuery, units, setUnits}) {
   return (
     <div class="flex justify-center my-6">
         <div class="flex flex-row w-3/4 items-center justify-center space-x-4">
-            <input type="text" placeholder="search for city..." class="placeholder:lowercase capitalize text-md font-normal p-2 w-full shadow-xl focus:outline-none bg-white" onChange={e => setCity(e.target.value)} value={city} />
+            <input type="text" placeholder="search for city..." class="rounded-2xl placeholder:lowercase capitalize text-md font-normal p-2 w-full shadow-xl focus:outline-none bg-white" onChange={e => setCity(e.target.value)} value={city} />
             <UilSearch size={25} class="text-white cursor-pointer transition ease-out hover:scale-125 " onClick={handleSearchClick}  />
             <UilLocationPoint size={25} class="text-white cursor-pointer transition ease-out hover:scale-125 " onClick={handleLocationClick}  />
         </div>
