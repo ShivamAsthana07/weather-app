@@ -1,17 +1,50 @@
-# React + Vite
+🌤️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive Weather Application built using React, Vite, and Tailwind CSS.
+This app allows users to search weather by city, use their current location, view real-time weather icons, switch between metric and imperial units, and explore both hourly and daily forecasts — all with a clean and modern interface.
 
-Currently, two official plugins are available:
+🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 View Weather App
 
-## React Compiler
+🧭 Features
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✅ Search weather by city name
+✅ Detect and show weather for current location
+✅ Display weather icons for better visual clarity
+✅ Toggle between Celsius (°C) and Fahrenheit (°F)
+✅ Show hourly and daily forecast details
+✅ Responsive UI using Tailwind CSS
+✅ Fast build and optimized performance with Vite
 
-## Expanding the ESLint configuration
+🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# weather-app
+⚛️ React – UI library
+
+⚡ Vite – Fast bundler and development environment
+
+🎨 Tailwind CSS – Utility-first styling
+
+🌦️ OpenWeather API – Real-time weather data
+
+🗺️ Geolocation API – Current location detection
+
+🧩 Installation and Setup
+
+Follow these steps to run the project locally:
+
+# 1. Clone the repository
+
+# 2. Navigate into the project directory
+
+# 3. Install dependencies
+npm install
+
+# 5. Start the development server
+npm run dev
+
+👨‍💻 Author
+
+Shivam Asthana
+📍 Built with ❤️ using React, Vite & Tailwind CSS
+🔗 Live Demo
